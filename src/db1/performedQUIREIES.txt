@@ -1,0 +1,13 @@
+-- insert into user values ('country_user','123456789','country_user@yahoo.com','C',1)  --I for 
+-- Select * from user
+-- ALTER TABLE signuprequest
+-- ADD FOREIGN KEY (requestNum) REFERENCES user(requestNum);
+-- "SELECT Count(*) as usercounter FROM user"
+-- "INSERT INTO user values ('%s','%s','%s','N',1,'%s')"
+-- "SELECT Count(*) as duplicationcount FROM user WHERE UserName='%s' OR Email='%s'"
+--
+-- select Name from product where name like '%_%' And Id in (select ProductId from buy_sell,country where CountryId in (select Id from country where Country_name in (select localCountry from user where Email='userfkfk@yahoo.com')))
+--  select Name from product where Id in (select ProductId from buy_sell,country where CountryId in(select Id from country where Country_name in( select localCountry from user where  Email='userfkfk@yahoo.com')))
+   And ProductType like  '%med%'
+--select Name from product where Id in (select ProductId from buy_sell,country where CountryId in(select Id from country where Country_name in( select localCountry from user where  Email='userfkfk@yahoo.com')))And Id in(select Id from product Inner join produce on product.Id = produce.PRODUCT_ID where Price between 100 and 150)
+--select Name from product where Id = '3' And Id in (select ProductId from buy_sell,country where CountryId in (select Id from country where Country_name in (select localCountry from user where Email='userfkfk@yahoo.com')));
